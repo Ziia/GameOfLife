@@ -164,7 +164,7 @@ function update () {
   popStat.innerHTML = "Population: " + stats.population + "<br>" + "Generation: " + stats.generation;
 }
 
-//IIFE
+
 (function initializeLife() {
   for (var i = 0; i < canvas.width; i++) {
     cells[i] = [];
